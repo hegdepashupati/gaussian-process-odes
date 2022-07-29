@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gpode"
+version = "0.1.0"
+description = "Variational multiple shooting for Bayesian ODEs with Gaussian processes (https://arxiv.org/abs/2106.10905)"
+authors = ["Pashupati Hegde <pashupati.hegde@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipython = "^7.20.0"
+matplotlib = "3.3.2"
+notebook = "6.2.0"
+pandas = "1.2.1"
+torch = "1.7.0"
+scikit-learn = "0.23.2"
+scipy = "1.5.2"
+seaborn = "0.11.1"
+torchdiffeq = "0.2.0"
+tqdm = "4.56.0"
+transforms3d = "0.3.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

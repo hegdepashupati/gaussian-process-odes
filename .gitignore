@@ -1,0 +1,26 @@
+# scripts
+*.sh
+*.slurm
+
+# checkpoints
+**.ckpt
+**.pth
+
+# model predictions and trace
+**/model_predictions.npz
+**/optimization_trace.npz
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# jupyter Notebook
+.ipynb_checkpoints
+
+# environments
+.venv
+poetry.lock
+
+# pycharm
+.idea/
